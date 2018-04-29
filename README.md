@@ -28,18 +28,18 @@ console.log(stats(Object));
 
 And the `stats` outputs structured info"
 
-```json
+```js
 [
   {
-    path: ["is"],
-    key: "is",
+    path: ['is'],
+    key: 'is',
     loc: {
-      file: "file:///Users/mikaelbrevik/Sites/exp/uendre/demo.mjs",
-      line: "5",
-      char: "11"
+      file: 'file:///Users/mikaelbrevik/Sites/exp/uendre/demo.mjs',
+      line: '5',
+      char: '11'
     }
   }
-]
+];
 ```
 
 ## Debug
