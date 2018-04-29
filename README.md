@@ -4,7 +4,7 @@ A debug tool based on JavaScript Proxy to track surprising/unwanted mutation of 
 
 In large applications there might be cases where there are some changes to objects you don't expect. These can be hard to track. Not only can the source be in your code, but also external dependencies. For instance something unexpectedly changing the prototype.
 
-**Note** Full disclosure. This package is only useful in a handful cases. It requires you to be able to override/shadow the object you want to inspect, and doesn't work on objects with readonly property descriptors (like prototype).
+**Note** Full disclosure. This package is only useful in a handful cases. It requires you to be able to override/shadow the object you want to inspect, and doesn't work on objects with readonly property descriptors (like prototype). I used this technique to trace what was adding `filter`, `map` et.al. as static functions to the `Array` object (Turns out it was earlier versions of babel).
 
 **Note 2** Currently unpublished. Work in progress, proof of concept.
 
