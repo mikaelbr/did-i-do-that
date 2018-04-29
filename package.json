@@ -1,0 +1,24 @@
+{
+  "name": "who-did-that",
+  "version": "1.0.0",
+  "description": "",
+  "main": "who-did-that.mjs",
+  "scripts": {
+    "prepublish": "npm run build",
+    "test": "ava"
+  },
+  "devDependencies": {
+    "ava": "1.0.0-beta.4",
+    "esm": "^3.0.28"
+  },
+  "keywords": ["proxy", "debug", "tool"],
+  "author": "Mikael Brevik <mikaelbre@gmail.com>",
+  "license": "ISC",
+  "ava": {
+    "require": ["esm"]
+  },
+  "esm": {
+    "mode": "auto"
+  },
+  "dependencies": {}
+}
