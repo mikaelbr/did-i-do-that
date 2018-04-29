@@ -21,7 +21,7 @@ Object.is = () => true;
 //   Change: function is() { [native code] } → () => true
 // -------------------------
 // Best guess for location:
-//   file:///Users/mikaelbrevik/Sites/exp/who-did-that/demo.mjs:5:11
+//   file:///exp/who-did-that/demo.mjs:5:11
 
 console.log(stats(Object));
 ```
@@ -34,7 +34,7 @@ And the `stats` outputs structured info"
     path: ['is'],
     key: 'is',
     loc: {
-      file: 'file:///Users/mikaelbrevik/Sites/exp/uendre/demo.mjs',
+      file: 'file:///exp/who-did-that/demo.mjs',
       line: '5',
       char: '11'
     }
