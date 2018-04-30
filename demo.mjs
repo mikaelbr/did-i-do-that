@@ -1,5 +1,5 @@
 #!/usr/bin/env node --no-warnings --experimental-modules
-import wdt, { stats } from './who-did-that';
+import wdt, { stats } from './did-i-do-that';
 
 Object = wdt(Object);
 Object.is = () => true;

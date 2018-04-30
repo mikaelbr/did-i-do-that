@@ -1,21 +1,26 @@
 {
-  "name": "who-did-that",
+  "name": "did-i-do-that",
   "version": "1.0.0",
-  "description": "",
-  "main": "who-did-that.mjs",
+  "description": "A debug tool based on JavaScript Proxy to track surprising/unwanted mutation of objects.",
+  "main": "did-i-do-that.mjs",
   "scripts": {
-    "prepublish": "npm run build",
     "test": "ava"
   },
   "devDependencies": {
     "ava": "1.0.0-beta.4",
     "esm": "^3.0.28"
   },
-  "keywords": ["proxy", "debug", "tool"],
+  "keywords": [
+    "proxy",
+    "debug",
+    "tool"
+  ],
   "author": "Mikael Brevik <mikaelbre@gmail.com>",
   "license": "ISC",
   "ava": {
-    "require": ["esm"]
+    "require": [
+      "esm"
+    ]
   },
   "esm": {
     "mode": "auto"
