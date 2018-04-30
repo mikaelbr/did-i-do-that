@@ -1,5 +1,8 @@
 # Did I do that?
 
+![Did I do that?](https://media.giphy.com/media/BxWTWalKTUAdq/giphy-downsized.gif)
+_(Property of CBS/ABC – Family Matters)_
+
 A debug tool based on JavaScript Proxy to track surprising/unwanted mutation of objects.
 
 In large applications there might be cases where there are some changes to objects you don't expect. These can be hard to track. Not only can the source be in your code, but also external dependencies. For instance something unexpectedly changing the prototype.
